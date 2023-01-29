@@ -1,0 +1,49 @@
+header {
+    display: flex;
+    align items: center;
+    background-color: #fff3a8;
+}
+
+h1 {
+    font-size: 250%;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color:#d96207;
+}
+
+h2 {
+    font-size: 200%;
+    color: #d96207;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2%;
+    margin: 2%;
+}
+
+nav a {
+    color: #d96207;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutme {
+    background-color: #ffda75;
+}
+
+.mywork {
+    background-color: #f0b04a;
+}
+
+.contactme {
+    background-color: #eb8c07;
+}
