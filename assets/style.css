@@ -1,6 +1,6 @@
 header {
     display: flex;
-    align items: center;
+    align-items: center;
     background-color: #fff3a8;
 }
 
@@ -12,12 +12,13 @@ h1 {
 
 h2 {
     font-size: 200%;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     color: #d96207;
 }
 
 nav ul {
     display: flex;
-    justify-content: flex-end;
+    justify-content: end;
     padding: 2%;
     margin: 2%;
 }
@@ -25,6 +26,7 @@ nav ul {
 nav a {
     color: #d96207;
     font-weight: bold;
+    font-family:'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
 nav a:hover {
@@ -34,16 +36,35 @@ nav a:hover {
 body {
     display: flex;
     flex-direction: column;
+    background-color: #fff3a8;
 }
 
 .aboutme {
-    background-color: #ffda75;
+    display: flex;
+    flex-direction: column;
+    color: #d96207;
+    font-weight: bold;
+}
+
+#portrait {
+    width: 200px;
+    height: auto;
 }
 
 .mywork {
-    background-color: #f0b04a;
+    display: flex;
+}
+
+#work1 {
+    width: 300px;
+    height: auto;
+}
+
+#placeholder {
+    width: 300px;
+    height: 175px;
 }
 
 .contactme {
-    background-color: #eb8c07;
+    display: flex;
 }
