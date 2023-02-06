@@ -18,12 +18,16 @@ h2 {
 
 nav ul {
     display: flex;
-    justify-content: end;
-    padding: 2%;
-    margin: 2%;
+    width: max-content;
+    justify-content: space-evenly;
+    padding: 5%;
 }
 
 nav a {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    width: 100px;
     color: #d96207;
     font-weight: bold;
     font-family:'Gill Sans MT', 'Trebuchet MS', sans-serif;
@@ -53,18 +57,35 @@ body {
 
 .mywork {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 75%;
+    padding: 3%;
 }
 
-#work1 {
-    width: 300px;
+.mywork a {
+    color: #d96207;
+    font-weight: bold;
+    font-family:'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.workpic {
+    width: 400px;
     height: auto;
 }
 
-#placeholder {
-    width: 300px;
-    height: 175px;
+.workpic:hover{
+    width: 450px;
+    height: auto;
 }
 
 .contactme {
     display: flex;
+}
+
+footer {
+    bottom: 0;
+    color: #d96207;
+    font-weight: bold;
+    font-family:'Gill Sans MT', 'Trebuchet MS', 
 }
